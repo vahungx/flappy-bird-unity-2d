@@ -58,6 +58,7 @@ public class GameController : MonoBehaviour
         pnlEndGame.SetActive(true);
         txtEndGame.text = "Your Point: " + gamePoint.ToString();
         isStartGame = false;
+        txtPoint.text = "";
     }
     public void GetPoint()
     {
